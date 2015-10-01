@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+  <persistence-unit name="campacard-jpa" transaction-type="RESOURCE_LOCAL">
+	
+    	<class>com.buzznet.campcard.entity.CampusEntity</class>
+		<class>com.buzznet.campcard.entity.CampusAccountDetailEntity</class>
+		<class>com.buzznet.campcard.entity.CardEntity</class>
+		<class>com.buzznet.campcard.entity.CardTransactionEntity</class>
+		<class>com.buzznet.campcard.entity.CardTypeEntity</class>
+		<class>com.buzznet.campcard.entity.GroupMemberEntity</class>
+		<class>com.buzznet.campcard.entity.GroupMemberEntityPK</class>
+		<class>com.buzznet.campcard.entity.GroupEntity</class>
+		<class>com.buzznet.campcard.entity.MemberAccountDetailEntity</class>
+		<class>com.buzznet.campcard.entity.MemberCardEntity</class>
+		<class>com.buzznet.campcard.entity.MemberCardEntityPK</class>
+		<class>com.buzznet.campcard.entity.MemberEntity</class>
+		<class>com.buzznet.campcard.entity.MemberTerminalEntity</class>
+		<class>com.buzznet.campcard.entity.MemberTerminalEntityPK</class>
+		<class>com.buzznet.campcard.entity.MemberTypeEntity</class>
+		<class>com.buzznet.campcard.entity.SettlementTransactionEntity</class>
+		<class>com.buzznet.campcard.entity.TerminalsEntity</class>
+		<class>com.buzznet.campcard.entity.TerminalTypeEntity</class>
+		<class>com.buzznet.campcard.entity.VwAdhoctransaction</class>
+ 
+  </persistence-unit>
+</persistence>

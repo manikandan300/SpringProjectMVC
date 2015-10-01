@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd" updateCheck="false">
+    <defaultCache eternal="true" maxElementsInMemory="100" overflowToDisk="false" />
+    <cache name="messageCache" maxElementsInMemory="10" eternal="true" overflowToDisk="false" />
+    <cache name="messagesCache" maxElementsInMemory="10" eternal="true" overflowToDisk="false" />
+    <cache name="dashboardCache" maxElementsInMemory="10" eternal="true" overflowToDisk="false"   timeToLiveSeconds="300"></cache>
+     <cache name="dashboardtranscountCache" maxElementsInMemory="10" eternal="true" overflowToDisk="false"   timeToLiveSeconds="300"></cache>
+     <cache name="dashboardcashgraphCache" maxElementsInMemory="10" eternal="true" overflowToDisk="false"   timeToLiveSeconds="300"></cache>
+      <cache name="dashboardmerchantgraphCache" maxElementsInMemory="10" eternal="true" overflowToDisk="false"   timeToLiveSeconds="300"></cache>
+    
+</ehcache>
